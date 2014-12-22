@@ -83,7 +83,7 @@
             <div class="col-md-8">
                 <div data-ex-role="exhibit-viewPanel">
                     <div data-ex-role="view" data-ex-label="Proyectos de innovacion" data-ex-view-class="Tabular"
-                    data-ex-columns=".label, .centro, .id"
+                    data-ex-columns=".label, .centro, .Id"
                     data-ex-column-labels="Titulo, Centro, Url"
                     data-ex-column-formats="text, text, url" data-ex-sort-column="1" data-ex-sort-ascending="false"
                     data-ex-table-styler="tableStyler" data-ex-paginate="true" data-ex-page-size="25">
@@ -100,12 +100,14 @@
 
                     </div>
 
+                      <div data-ex-role="view" data-ex-label="Proyectos de innovacion" >
+                        </div>
                 </div>
             </div>
             <div class="col-md-2">
 
 <div data-ex-role="facet" data-ex-expression=".centro" data-ex-facet-label="Centro" data-ex-show-missing="false"
-             data-ex-sort-mode="count">
+             data-ex-sort-mode="count" data-ex-height="400">
                </div>
 
 
@@ -114,22 +116,7 @@
 
         </div>
     </div>
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-1734348-11', 'auto');
-    ga('send', 'pageview');
-    </script>
 </body>
 
 </html>
